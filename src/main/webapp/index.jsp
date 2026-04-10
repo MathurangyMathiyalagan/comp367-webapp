@@ -1,14 +1,3 @@
-<%
-    // Get current local time
-    java.time.LocalTime now = java.time.LocalTime.now();
-    String greeting;
-
-    if(now.isBefore(java.time.LocalTime.NOON)){
-        greeting = "Good morning, Mathu, Welcome to COMP367";
-    } else {
-        greeting = "Good afternoon, Mathu, Welcome to COMP367";
-    }
-%>
 <%@ page import="java.time.LocalTime" %>
 
 <%
@@ -25,8 +14,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>COMP 367</title>
+    <meta charset="UTF-8">
+    <title>COMP 367</title>
 </head>
 <body>
 
